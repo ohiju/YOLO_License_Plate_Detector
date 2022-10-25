@@ -1,7 +1,7 @@
 1.	L1 규제를 변화시킬 때 weight와 loss function을 살펴본다 
 1)	L1=0.0001
-<img width="80%" src="https://user-images.githubusercontent.com/94172351/197729038-51a52789-bb53-4035-9293-9518a714d168.png"/>
-<img width="80%" src="https://user-images.githubusercontent.com/94172351/197729086-0b7f44dd-04c5-4439-bddc-071cae8f9f88.png"/>
+<img src="https://user-images.githubusercontent.com/94172351/197729038-51a52789-bb53-4035-9293-9518a714d168.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="https://user-images.githubusercontent.com/94172351/197729086-0b7f44dd-04c5-4439-bddc-071cae8f9f88.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 -	규제가 너무 약해 특정 Weight 몇 개에 상당히 높은 Value가 설정되어 있다. (어떤 Weight는 Value가 무려 4에 가깝게 설정되어 있다.)
 -	이런 모델은 특정한 몇 개의 데이터에 집착하여 훈련 세트에서는 높은 성능을 낼 지 모르지만 검증, 테스트 세트에서는 높은 성능을 내기 어렵다. 
